@@ -22,8 +22,11 @@ int main(void) {
 	//
 	// Setup game scene objects here
 	//
-
 	
+
+	float pi = 3.14;
+
+	addObject("player", glm::vec2(1.0f, 1.0f), glm::radians(0.0f), glm::vec2(1.0f, 1.0f), "Resources\\Textures\\cat.jpg",TextureProperties::NearestFilterTexture());
 	//
 	// Set callback functions
 	//
